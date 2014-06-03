@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:creator opf:file-as="Name, Your" opf:role="aut">Your Name</dc:creator>
+    <dc:identifier id="BookId" opf:scheme="UUID">urn:uuid:da49ce3e-b60d-42fc-9c46-6d6cd3d04c96</dc:identifier>
+    <dc:date>2014-06-01T04:00:00+00:00</dc:date>
+    <dc:title>eBook Title</dc:title>
+    
+    <dc:language>en</dc:language>
+    <dc:date opf:event="modification">2014-06-01</dc:date>
+
+  </metadata>
+  <manifest>
+    <item href="Cover.html" id="CoverId" media-type="application/xhtml+xml" />
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    <item href="Styles/styles.css" id="styles.css" media-type="text/css" />
+    <item href="Images/placeholder.jpeg" id="placeholder" media-type="image/jpeg" />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="CoverId" />
+  </spine>
+  <guide />
+</package>
